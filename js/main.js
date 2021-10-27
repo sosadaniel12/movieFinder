@@ -39,13 +39,14 @@ function getMovies(searchText) {
           <div class="col-md-3">
           <div class="well text-center">
           <img src="${movie.Poster}">
-          <h5>${movie.Title}</h5>
+          <h3>${movie.Title}</h3>
           <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
           </div>
           </div>
           `;
       });
-
+      topFunction();
+      scrollFunction();
       $("#movies").html(output);
     })
     .catch((error) => {
