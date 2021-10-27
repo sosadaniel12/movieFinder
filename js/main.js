@@ -8,17 +8,6 @@ $(document).ready(function () {
 
 function getMovies(searchText) {
   axios
-    .create({
-      baseURL: "https://www.omdbapi.com",
-      withCredentials: false,
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods":
-          "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-        "Access-Control-Allow-Headers":
-          "X-Requested-With, content-type, Authorization",
-      },
-    })
     .get("https://www.omdbapi.com?s=" + searchText + "&apikey=f32c5430")
     .then((response) => {
       console.log(response);
