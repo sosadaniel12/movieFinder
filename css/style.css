@@ -44,19 +44,40 @@ div.container {
 
 #searchButton {
   margin: auto;
-  padding: 2.2em;
+  padding: 1.5em;
   box-shadow: 15px 10px 25px #888888;
   max-width: 100%;
   max-height: 30%;
   margin-bottom: 2em;
+  position: relative;
+  bottom: 1em;
 }
 
 #searchButton:hover {
   background-color: #74bdcb;
 }
 
+div.jumbotron {
+  background-color: #74bdcb;
+  border-radius: 5px;
+  margin: auto;
+  padding: 1.5em;
+  box-shadow: 15px 10px 25px #888888;
+  min-width: 50%;
+  min-width: 100%;
+  margin-bottom: 1em;
+}
+
 h2.text-center {
-  min-height: 20%;
+  text-align: center;
+  background-color: #d9e3f1;
+  border-radius: 5px;
+  margin: auto;
+  padding: 2.2em;
+  box-shadow: 15px 10px 25px #888888;
+  min-width: 50%;
+  height: 90%;
+  margin-bottom: 2em;
 }
 
 #movies .btn {
@@ -120,6 +141,10 @@ h2.text-center {
     align-self: center;
     justify-content: center;
     align-items: center;
+  }
+
+  .container {
+    height: 100%;
   }
 
   /* #movies .col-md-3 img {
@@ -186,11 +211,21 @@ h2.text-center {
   #movies .col-md-3 .well {
     min-height: 450px;
   }
-  /* 
-  #movies .col-md-3 img {
-    max-height: 240px;
-    padding-bottom: 1em;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  } */
+
+  #movies .col-md-3 .btn {
+    height: auto;
+    min-width: 100%;
+    margin-top: 1em;
+  }
+}
+
+/*movie.html*/
+
+img.thumbnail {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 100%;
+  max-height: 100%;
 }
