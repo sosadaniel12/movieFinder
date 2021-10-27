@@ -101,4 +101,25 @@ body {
     justify-content: space-evenly;
     flex: 0 1 auto;
   }
+
+  #movies .col-md-3 {
+    flex: 0 2 40%;
+    margin: 1em;
+    max-width: 33.333333%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #movies .col-md-3 .well {
+    min-height: 450px;
+  }
+
+  #movies .col-md-3 img {
+    max-height: 240px;
+    padding-bottom: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
 }
