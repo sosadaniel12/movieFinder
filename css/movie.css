@@ -8,8 +8,11 @@ h2 {
 
 .btn {
   margin: 1em;
+  box-shadow: 5px 5px 10px rgb(55 94 148 / 20%),
+    -5px -5px 10px rgb(255 255 255 / 40%);
 }
 
 .btn:hover {
   background-color: #74bdcb;
 }
+
