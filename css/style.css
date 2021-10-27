@@ -93,3 +93,12 @@ body {
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  #movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 0 1 auto;
+  }
+}
