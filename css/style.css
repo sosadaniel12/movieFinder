@@ -30,7 +30,6 @@ div.container {
 .container {
   display: flex;
   justify-content: center;
-  height: 100%;
 }
 
 .text-center {
@@ -44,7 +43,7 @@ div.container {
 }
 
 #searchButton {
-  margin: auto;
+  margin: 2em auto;
   padding: 1.5em;
   box-shadow: 15px 10px 25px #888888;
   max-width: 100%;
