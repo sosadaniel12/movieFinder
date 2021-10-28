@@ -36,7 +36,7 @@ div.container {
 .text-center {
   text-align: center;
   background-color: #74bdcb;
-  border-radius: 5px;
+  border-radius: 8px;
   margin: auto;
   padding: 2em;
   box-shadow: 15px 10px 25px #888888;
@@ -64,8 +64,6 @@ div.jumbotron {
   margin: auto;
   padding: 1.5em;
   box-shadow: 15px 10px 25px #888888;
-  min-width: 50%;
-  min-width: 100%;
   margin-bottom: 1em;
 }
 
@@ -209,6 +207,11 @@ h2.text-center {
     flex: 0 1 auto;
   }
 
+  div.jumbotron {
+    width: 50%;
+    padding: 4em;
+  }
+
   #movies .col-md-3 {
     flex: 0 2 40%;
     margin: 1em;
@@ -231,5 +234,10 @@ h2.text-center {
 
   #myBtn {
     width: 10%;
+  }
+
+  #searchButton {
+    max-width: 50%;
+    margin-top: 1em;
   }
 }
