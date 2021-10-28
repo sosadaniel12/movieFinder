@@ -64,6 +64,11 @@ div.jumbotron {
   padding: 1.5em;
   box-shadow: 15px 10px 25px #888888;
   margin-bottom: 1em;
+  text-align: center;
+}
+
+#searchText {
+  text-align: center;
 }
 
 h2.text-center {
