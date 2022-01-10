@@ -14,7 +14,8 @@ h2 {
 
 h2,
 h3 {
-  font-family: fantasy, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
   transform: skew(-15deg);
 }
 

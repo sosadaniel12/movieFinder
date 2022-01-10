@@ -35,7 +35,7 @@ div.container {
   font-size: 2em;
   text-decoration: underline;
   text-decoration-color: rgb(255, 84, 84);
-  text-underline-offset: 0.5em;
+  text-underline-offset: 5px;
   transform: skew(-15deg);
 }
 
@@ -88,7 +88,8 @@ img {
   display: block;
   justify-content: center;
   align-items: center;
-  font-family: fantasy, "Times New Roman", Times, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
   font-style: oblique;
 }
 
