@@ -1,22 +1,11 @@
 * {
-  color: #7b8ab8;
+  color: rgb(255, 255, 255);
   width: 100%;
-  font-family: "Fredoka One", cursive;
-  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background: #afd0d3; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #afd0d3,
-    #abbaab
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #afd0d3,
-    #abbaab
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: rgb(53, 97, 74);
 }
 div.container {
   width: 100%;
@@ -34,35 +23,45 @@ div.container {
 
 .text-center {
   text-align: center;
-  background-color: #74bdcb;
   border-radius: 8px;
   margin: auto;
+  color: rgb(255, 255, 255);
   padding: 2em;
-  box-shadow: 15px 10px 25px #888888;
-  margin-bottom: 3em;
+}
+
+#header {
+  background-color: rgb(53, 97, 74);
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 84, 84);
+  text-underline-offset: 0.5em;
+  transform: skew(-15deg);
 }
 
 #searchButton {
   margin: 2em auto;
   padding: 1.5em;
-  box-shadow: 15px 10px 25px #888888;
-  max-width: 100%;
+  max-width: 70%;
   max-height: 30%;
   margin-bottom: 2em;
   position: relative;
   bottom: 1em;
+  background-color: rgb(73, 73, 73);
+  color: rgb(255, 255, 255) !important;
+  box-shadow: none;
 }
 
 #searchButton:hover {
-  background-color: #74bdcb;
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s linear;
+  color: rgb(0, 0, 0) !important;
 }
 
 div.jumbotron {
-  background-color: #74bdcb;
   border-radius: 5px;
   margin: auto;
-  padding: 1.5em;
-  box-shadow: 15px 10px 25px #888888;
+  padding: 1px;
   margin-bottom: 1em;
   text-align: center;
 }
@@ -71,35 +70,43 @@ div.jumbotron {
   text-align: center;
 }
 
-h2.text-center {
-  text-align: center;
-  background-color: #d9e3f1;
-  border-radius: 5px;
-  margin: auto;
-  padding: 2.2em;
-  box-shadow: 15px 10px 25px #888888;
-  min-width: 50%;
-  height: 90%;
-  margin-bottom: 2em;
+img {
+  border: #101820ff solid 1px;
+  min-height: 200px;
+  border-radius: 5px 5px 0px 0px;
 }
 
-#movies .btn {
-  height: 20%;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  max-width: 70%;
-  padding: 1.5em;
-  margin: auto;
-  margin-top: 2em;
-}
-
-#movies .col-md-3 img {
+.title {
+  background-color: #101820ff;
+  color: #f6f6f6;
+  padding: 15px;
   margin-bottom: 1em;
-  height: 70%;
-  border: #afd0d3 outset 3px;
-  border-radius: 8px;
+  font-size: 1em;
+  border-radius: 0 0 5px 5px;
+  min-height: 90px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy, "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+
+#resultBtn {
+  background-color: rgb(34, 122, 194);
+  color: rgb(255, 255, 255);
+  box-shadow: none;
+}
+
+#resultBtn:hover {
+  background-color: rgb(255, 255, 255);
+  transform: skew(-10deg);
+  color: black;
+  font-weight: 800;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2px;
+  transition: 0.3s linear;
 }
 
 #myBtn {
@@ -112,136 +119,71 @@ h2.text-center {
   z-index: 99;
   border: none;
   outline: none;
-  color: #7b8ab8;
-  background-color: #d9e3f1;
+  color: #f2aa4cff;
+  background-color: #f6f6f6;
   cursor: pointer;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 5px 5px 10px rgb(55 94 148 / 20%),
-    -5px -5px 10px rgb(255 255 255 / 40%);
-  font-size: 18px;
 }
 
 #myBtn:hover {
   background-color: #74bdcb;
 }
 
-@media screen and (min-width: 770px) {
-  .text-center {
-    min-width: 250px;
-    height: auto;
+@media screen and (min-width: 780px) {
+  #searchButton {
+    max-width: 40%;
   }
 
-  #movies {
+  img {
+    min-height: 320px;
+    width: 200px;
+  }
+
+  .title {
+    font-size: 1em;
+    width: 11.1rem;
+  }
+
+  .container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    flex: 0 1 auto;
-  }
-  #movies .col-md-3 {
-    width: 20%;
-    height: auto;
-  }
-  #movies.row {
-    display: flex;
+    margin: 1em auto;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex: 0 1 auto;
   }
 
-  #movies .col-md-3 img {
-    margin-bottom: 1em;
-    height: auto;
-    border: #afd0d3 outset 3px;
-    border-radius: 8px;
-  }
-
-  #movies .col-md-3 img {
-    margin-bottom: 1em;
-    height: 70%;
-    border: #afd0d3 outset 3px;
-    border-radius: 8px;
-  }
-
-  #movies .col-md-3 {
-    flex: 0 2 40%;
-    margin: 1em;
-    max-width: 33.333333%;
-    max-height: 30%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #movies.container {
-    max-height: 70%;
-  }
-
-  #movies .col-md-3 .btn {
-    height: auto;
-    min-width: 100%;
-    margin-top: 1em;
-  }
-
-  #movies .col-md-3 .btn:hover {
-    background-color: #74bdcb;
-  }
-  #movies .btn {
-    min-height: 40px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5em;
-  }
-
-  #movies .btn-group {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  #resultBtn {
+    width: 200px;
   }
 }
 
-@media screen and (min-width: 1000px) {
-  #movies {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex: 0 1 auto;
+@media screen and (min-width: 1400px) {
+  #searchButton {
+    max-width: 30%;
   }
 
-  div.jumbotron {
+  .title {
+    width: 11.7em;
+    font-size: 1.2em;
+  }
+
+  img {
+    min-width: 253px;
+    max-height: 85px;
+  }
+
+  #header {
+    font-size: 2.5em;
+  }
+
+  #searchText {
     width: 50%;
-    padding: 4em;
-  }
-
-  #movies .col-md-3 {
-    flex: 0 2 40%;
-    margin: 1em;
-    max-width: 33.333333%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #movies .col-md-3 .well {
-    min-height: 450px;
-  }
-
-  #movies .col-md-3 .btn {
-    height: auto;
-    min-width: 100%;
-    margin-top: 1em;
+    margin: auto;
   }
 
   #myBtn {
-    width: 10%;
-  }
-
-  #searchButton {
-    max-width: 30%;
-    margin-top: 1em;
+    position: relative;
+    left: -12rem;
+    width: 50px;
   }
 }

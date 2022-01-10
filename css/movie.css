@@ -1,6 +1,7 @@
 * {
-  font-family: "Fredoka One", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
+  color: #505050 !important;
 }
 
 div.well {
@@ -11,6 +12,12 @@ h2 {
   margin: 1em;
 }
 
+h2,
+h3 {
+  font-family: fantasy, serif;
+  transform: skew(-15deg);
+}
+
 .btn {
   margin: 1em;
   box-shadow: 5px 5px 10px rgb(55 94 148 / 20%),
@@ -18,7 +25,10 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #74bdcb;
+  background-color: #000000;
+  color: rgb(255, 255, 255) !important;
+  transform: skew(-15deg);
+  transition: ease-out 0.3s;
 }
 
 @media (min-width: 768px) {
