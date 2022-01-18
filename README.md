@@ -38,7 +38,7 @@ Start
 
 ## Screenshots
 
-![App Screenshot](https://danielsosa2121.nimbusweb.me/box/attachment/6506390/58dgipf16yg5mnyex46m/D6IdQyDSqLpY51E4/screenshot-sosadaniel12.github.io-2022.01.18-14_17_10.png)
+![App Screenshot](https://danielsosa2121.nimbusweb.me/box/attachment/6506490/1ripk06ph6ikfqdchptp/Ua7QX84rrT5OF8XA/screenshot-sosadaniel12.github.io-2022.01.18-15_00_14.png)
 
 
 ## Support
