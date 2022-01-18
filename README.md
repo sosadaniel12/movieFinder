@@ -20,7 +20,7 @@ https://sosadaniel12.github.io/theWorkDayPlanner/
 Clone the project
 
 ```bash
-  git clone git@github.com:sosadaniel12/theWorkDayPlanner.git
+  git clone git@github.com:sosadaniel12/movieFinder.git
 ```
 
 Go to the project directory
