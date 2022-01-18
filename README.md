@@ -1,73 +1,47 @@
-# The Movie Finder
 
-![PyPi license](https://badgen.net/pypi/license/pip/)
+# Movie Finder
 
-## Description
+Have a movie or show in mind? You can look for it using my movie finder! Simply put the title of the movie or show in the search box, then you will get back results matching to the titile or releveance to it. 
 
-It will used for user's to be able to find their favorite movies.
+## Demo
 
-## Table of Contents
+https://sosadaniel12.github.io/theWorkDayPlanner/
 
-[Description](#description)
 
-[Installation](#installation)
 
-[Usage](#usage)
+## Tech Stack
 
-[Credits](#credits)
+**Client:** HTML, CSS, JavaScript, Bootstrap
 
-[License](#license)
 
-[Badges](#badges)
 
-[Contributing](#contributing)
+## Run Locally
 
-[Deployment](#deployment)
+Clone the project
 
-[Tests](#tests)
+```bash
+  git clone git@github.com:sosadaniel12/theWorkDayPlanner.git
+```
 
-[Questions](#questions)
+Go to the project directory
 
-## Installation
+```bash
+ index.html
+```
 
-none
+Start 
 
-## Usage
+```bash
+  run live server
+```
 
-In the browser
 
-## Credits
+## Screenshots
 
-Daniel Sosa
+![App Screenshot](https://danielsosa2121.nimbusweb.me/box/attachment/6506390/58dgipf16yg5mnyex46m/D6IdQyDSqLpY51E4/screenshot-sosadaniel12.github.io-2022.01.18-14_17_10.png)
 
-### License
 
-## MIT License
+## Support
 
-## Badges
+For support, email danielsosa2121@gmail.com
 
-![PyPi license](https://badgen.net/pypi/license/pip/)
-
-## Contributing
-
-none
-
-## Deployment
-
-https://sosadaniel12.github.io/movieFinder/
-
-## Test
-
-none
-
-## Questions
-
-- GitHub
-
-sosadaniel12
-
-https://github.com/sosadaniel12
-
-- Email
-
-danielsosa2121@gmail.com
