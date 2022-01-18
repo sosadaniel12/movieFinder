@@ -5,7 +5,7 @@ Have a movie or show in mind? You can look for it using my movie finder! Simply 
 
 ## Demo
 
-https://sosadaniel12.github.io/theWorkDayPlanner/
+https://sosadaniel12.github.io/movieFinder/
 
 
 
